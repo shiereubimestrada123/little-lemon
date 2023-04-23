@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.header .nav ul {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+}
+
+@media (min-width: 320px) {
+    .header {
+        padding: 0 1em;
+    }
+}
+
+@media (min-width: 576px) {
+    .header {
+        padding: 0 1em;
+    }
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding: 0 2em;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .header {
+        padding: 0 10em;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .header {
+        padding: 0 15em;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    .header {
+        padding: 0 20em;
+    }
+}

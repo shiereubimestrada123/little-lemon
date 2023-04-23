@@ -1,0 +1,212 @@
+.jumbotron {
+    height: 400px;
+    background-color: #495E57;
+}
+
+.jumbotron {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 2em; */
+}
+
+.jumbotron .jumbotron-text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.jumbotron .jumbotron-text p:first-child {
+    color: #F4CE14;
+    font-weight: bold;
+    /* font-size: 4em; */
+}
+
+.jumbotron .jumbotron-text p:nth-child(2) {
+    color: #fff;
+    /* font-size: 2em; */
+}
+
+.jumbotron .jumbotron-text p:nth-child(3) {
+    color: #fff;
+}
+
+.jumbotron .jumbotron-text button {
+    width: 40%;
+    background-color: #F4CE14;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+}
+
+/* .jumbotron img {
+    height: 400px;
+    width: 400px;
+    border-radius: 1em;
+    margin-top: 5%;
+} */
+
+@media (min-width: 320px) {
+    .jumbotron {
+        padding: 0 1em;
+        gap: 1em;
+    }
+
+    .jumbotron .jumbotron-text p:first-child {
+        font-size: 1.5em;
+    }
+
+    .jumbotron .jumbotron-text p:nth-child(2) {
+        font-size: 1em;
+    }
+
+    .jumbotron .jumbotron-text button {
+        width: 80%;
+    }
+
+    .jumbotron .jumbotron-text button {
+        width: 100%;
+    }
+
+    .jumbotron img {
+        height: 300px;
+        width: 300px;
+        border-radius: 1em;
+        margin-top: 35%;
+    }
+}
+
+@media (min-width: 576px) {
+    .jumbotron {
+        padding: 0 1em;
+    }
+
+    .jumbotron .jumbotron-text p:first-child {
+        font-size: 1.5em;
+    }
+
+    .jumbotron .jumbotron-text p:nth-child(2) {
+        font-size: 1em;
+    }
+
+    .jumbotron .jumbotron-text button {
+        width: 80%;
+    }
+
+    .jumbotron img {
+        height: 300px;
+        width: 300px;
+        border-radius: 1em;
+        margin-top: 25%;
+    }
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding: 0 2em;
+    }
+
+    .jumbotron .jumbotron-text p:first-child {
+        font-size: 2em;
+    }
+
+    .jumbotron .jumbotron-text p:nth-child(2) {
+        font-size: 1em;
+    }
+
+    .jumbotron .jumbotron-text button {
+        width: 45%;
+    }
+
+    .jumbotron img {
+        height: 400px;
+        width: 400px;
+        border-radius: 1em;
+        margin-top: 5%;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .jumbotron {
+        padding: 0 10em;
+    }
+
+    .jumbotron .jumbotron-text p:first-child {
+        font-size: 64px;
+    }
+
+    .jumbotron .jumbotron-text p:nth-child(2) {
+        font-size: 1.5em;
+    }
+
+    .jumbotron .jumbotron-text button {
+        width: 45%;
+    }
+
+    .jumbotron img {
+        height: 400px;
+        width: 400px;
+        border-radius: 1em;
+        margin-top: 5%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .jumbotron {
+        padding: 0 15em;
+    }
+
+    .jumbotron .jumbotron-text {
+        width: 40%;
+    }
+
+    .jumbotron .jumbotron-text p:first-child {
+        font-size: 64px;
+    }
+
+    .jumbotron .jumbotron-text p:nth-child(2) {
+        font-size: 1.5em;
+    }
+
+    .jumbotron .jumbotron-text button {
+        width: 45%;
+    }
+
+    .jumbotron img {
+        height: 400px;
+        width: 400px;
+        border-radius: 1em;
+        margin-top: 5%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .jumbotron {
+        padding: 0 20em;
+    }
+
+    .jumbotron .jumbotron-text {
+        width: 40%;
+    }
+
+    .jumbotron .jumbotron-text p:first-child {
+        font-size: 64px;
+    }
+
+    .jumbotron .jumbotron-text p:nth-child(2) {
+        font-size: 2em;
+    }
+
+    .jumbotron .jumbotron-text button {
+        width: 40%;
+    }
+
+    .jumbotron img {
+        height: 400px;
+        width: 400px;
+        border-radius: 1em;
+        margin-top: 5%;
+    }
+}

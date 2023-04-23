@@ -1,0 +1,155 @@
+.specials {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    margin-bottom: 16px;
+}
+
+.specials .header-specials {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.specials .header-specials h2 {
+    font-size: 64px;
+}
+
+.specials .header-specials button {
+    /* width: 40%; */
+    background-color: #F4CE14;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    font-size: 18px;
+}
+
+.specials .card {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    gap: 3.33%;
+    /* width: 100%; */
+}
+
+.specials .card .single-card {
+    width: 300px;
+    margin-bottom: 32px;
+}
+
+.specials .card .single-card .label {
+    background-color: #EDEFEE;
+    padding: 16px;
+    margin-top: -2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    max-height: 500px;
+}
+
+.specials .card .single-card .label .paragraph {
+    line-height: 1.2;
+    font-size: 16px;
+}
+
+.specials .card .single-card .label .order-delivery {
+    color: #333333;
+    font-weight: bold;
+}
+
+.specials .card .single-card .label div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.specials .card .single-card .label:nth-child(1) {
+    /* color: #333333; */
+    font-weight: bold;
+    background-color: #EE9972;
+}
+
+.specials .card .single-card .label div h3 {
+    font-size: 18px;
+}
+
+.specials .card .single-card .label div h6 {
+    color: #EE9972;
+}
+
+.specials .card img {
+    height: 300px;
+    width: 300px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+@media (min-width: 320px) {
+    .specials {
+        padding: 0 1em;
+        margin-top: 12%;
+    }
+
+    .specials .card {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 576px) {
+    .specials {
+        padding: 0 1em;
+        margin-top: 12%;
+    }
+
+    .specials .card {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .specials {
+        padding: 0 2em;
+        margin-top: 7%;
+    }
+
+    .specials .card {
+        justify-content: space-between;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .specials {
+        padding: 0 10em;
+        margin-top: 7%;
+    }
+
+    .specials .card {
+        justify-content: space-between;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .specials {
+        padding: 0 15em;
+        margin-top: 7%;
+    }
+
+    .specials .card {
+        justify-content: space-between;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    .specials {
+        padding: 0 20em;
+        margin-top: 7%;
+    }
+
+    .specials .card {
+        justify-content: space-between;
+    }
+}
