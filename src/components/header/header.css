@@ -11,6 +11,10 @@
     list-style: none;
 }
 
+.header .nav ul li {
+    cursor: pointer;
+}
+
 @media (min-width: 320px) {
     .header {
         padding: 0 1em;

@@ -143,6 +143,7 @@
 
     .jumbotron .jumbotron-text button {
         width: 45%;
+        cursor: pointer;
     }
 
     .jumbotron img {

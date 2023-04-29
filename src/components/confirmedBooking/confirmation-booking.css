@@ -1,0 +1,9 @@
+.confirmation-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    line-height: 64px;
+    background-color: aliceblue;
+}

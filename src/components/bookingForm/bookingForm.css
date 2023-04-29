@@ -1,0 +1,19 @@
+.booking-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.booking-form form {
+    background-color: aliceblue;
+    padding: 16px;
+}
+
+.booking-form form div {
+    margin-bottom: 16px;
+}
+
+.booking-form form div input, .booking-form form div select, .booking-form form div textarea, .booking-form form div button {
+    padding: 8px;
+}
